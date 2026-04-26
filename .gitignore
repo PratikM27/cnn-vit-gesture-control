@@ -1,0 +1,73 @@
+# ─────────────────────────────────────────────
+# Python
+# ─────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ─────────────────────────────────────────────
+# Virtual Environment
+# ─────────────────────────────────────────────
+venv/
+env/
+.env/
+.venv/
+
+# ─────────────────────────────────────────────
+# Model Checkpoints & Weights
+# ─────────────────────────────────────────────
+checkpoints/*.pth
+checkpoints/*.pt
+checkpoints/*.onnx
+*.pth
+*.pt
+
+# ─────────────────────────────────────────────
+# Dataset (too large for git)
+# ─────────────────────────────────────────────
+data/raw_data/
+data/gesture_dataset/
+
+# ─────────────────────────────────────────────
+# Results & Generated Outputs
+# ─────────────────────────────────────────────
+results/*.png
+results/*.jpg
+results/confusion_matrices/
+results/training_curves/
+results/comparison_report.md
+results/research_report.md
+
+# ─────────────────────────────────────────────
+# IDE & Editor
+# ─────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.project
+.settings/
+
+# ─────────────────────────────────────────────
+# OS Generated
+# ─────────────────────────────────────────────
+.DS_Store
+Thumbs.db
+desktop.ini
+ehthumbs.db
+
+# ─────────────────────────────────────────────
+# Jupyter Notebook
+# ─────────────────────────────────────────────
+.ipynb_checkpoints/
+
+# ─────────────────────────────────────────────
+# Logs
+# ─────────────────────────────────────────────
+*.log

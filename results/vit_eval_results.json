@@ -1,0 +1,127 @@
+{
+  "accuracy": 100.0,
+  "precision_macro": 100.0,
+  "recall_macro": 100.0,
+  "f1_macro": 100.0,
+  "per_class": {
+    "fist": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 46
+    },
+    "index_point": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 46
+    },
+    "open_palm": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 46
+    },
+    "pinch": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 47
+    },
+    "three_fingers_down": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 47
+    },
+    "three_fingers_up": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 47
+    },
+    "two_fingers_up": {
+      "precision": 100.0,
+      "recall": 100.0,
+      "f1": 100.0,
+      "support": 47
+    }
+  },
+  "confusion_matrix": [
+    [
+      46,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      46,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      46,
+      0,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      47,
+      0,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      47,
+      0,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      47,
+      0
+    ],
+    [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      47
+    ]
+  ],
+  "avg_inference_time_ms": 47.10032301591127,
+  "fps": 21.231276899357642,
+  "latency": {
+    "mean_ms": 44.16141600202536,
+    "std_ms": 10.679972017349227,
+    "min_ms": 22.429599979659542,
+    "max_ms": 66.03300001006573,
+    "median_ms": 44.33985000650864,
+    "fps": 22.644201443951374
+  },
+  "total_params": 85804039,
+  "model_size_mb": 327.31643295288086
+}
