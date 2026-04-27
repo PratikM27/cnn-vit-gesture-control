@@ -65,7 +65,7 @@ python -c "import mediapipe; print(f'MediaPipe {mediapipe.__version__}')"
 
 - Important:
 📂 Place it here:
-
+```
 project/
 │
 ├── checkpoints/
@@ -76,6 +76,7 @@ project/
 ├── main.py
 ├── .gitignore
 └── README.md
+```
 
 ---
 
