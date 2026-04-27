@@ -12,6 +12,31 @@
 
 ---
 
+### Download Model
+
+- If you want to use pretrain model then
+- Download the trained model from Hugging Face:
+```bash
+👉 https://huggingface.co/pratikm27/gesture-recognition-model/blob/main/best_cnn_model.pth
+
+👉 https://huggingface.co/pratikm27/gesture-recognition-model/blob/main/best_vit_model.pth
+```
+
+- Important:
+📂 Place it here:
+```
+project/
+│
+├── checkpoints/
+│   └── best_cnn_model.pth
+│   └── best_vit_model.pth
+│
+├── src/
+├── main.py
+├── .gitignore
+└── README.md
+```
+
 ## Step 1: Install Dependencies
 
 Open a terminal in the project folder and run:

@@ -61,6 +61,8 @@ python -c "import mediapipe; print(f'MediaPipe {mediapipe.__version__}')"
 - Download the trained model from Hugging Face:
 ```bash
 👉 https://huggingface.co/pratikm27/gesture-recognition-model/blob/main/best_cnn_model.pth
+
+👉 https://huggingface.co/pratikm27/gesture-recognition-model/blob/main/best_vit_model.pth
 ```
 
 - Important:
