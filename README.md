@@ -55,6 +55,28 @@ python -c "import timm; print(f'timm {timm.__version__}')"
 python -c "import mediapipe; print(f'MediaPipe {mediapipe.__version__}')"
 ```
 
+### 4. Download Model
+
+- If you want to use pretrain model then
+- Download the trained model from Hugging Face:
+```bash
+👉 https://huggingface.co/pratikm27/gesture-recognition-model/blob/main/best_cnn_model.pth
+```
+
+- Important:
+📂 Place it here:
+
+project/
+│
+├── checkpoints/
+│   └── best_cnn_model.pth
+│   └── best_vit_model.pth
+│
+├── src/
+├── main.py
+├── .gitignore
+└── README.md
+
 ---
 
 ## Usage Guide
