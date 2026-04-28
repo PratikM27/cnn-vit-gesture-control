@@ -1,6 +1,6 @@
 # Real-Time Cursor Control Using Hand Gestures with Vision Transformer
 
-> CNN vs Vision Transformer — A Comparative Study for Gesture-Based HCI
+> CNN vs Vision Transformer — A Comparative Study for Gesture-Based HCI.
 
 ---
 
